@@ -1,0 +1,64 @@
+*{
+    padding:100;
+    margin:500;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: medium;
+    font-weight: bold;
+    color: blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.navbar-brand:hover{
+    color: brown;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: burlywood;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black
+}
+.navbar-text{
+    color: rgb(24, 21, 216);
+    text-transform:uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Home{
+    background: url(./trl.jpeg)no-repeat;
+    background-size:cover;
+    height: 600px;
+    background-position:50% 50%;
+    width: 1600px;
+  
+
+}
+.Home h1{
+    font-size: 2rem;
+    font: weight 100px;
+    padding: 3pc;
+}
+.btn1{
+    height: 40px;
+    width:100px;
+    background-color:red;
+    color:black;
+    font-weight:700px;
+    border-radius: 50px;
+}
+.btn1:hover{
+    background-color: darksalmon;
+    transition: 0.2ms;
+}
+.help{
+    background: url(./img/thnq.avif);
+    background-size:cover;
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 500px;
+    width: 700px;
+}
+    
